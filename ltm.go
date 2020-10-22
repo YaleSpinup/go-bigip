@@ -104,7 +104,7 @@ type ClientSSLProfile struct {
 	Key                             string   `json:"key,omitempty"`
 	ModSslMethods                   string   `json:"modSslMethods,omitempty"`
 	Mode                            string   `json:"mode,omitempty"`
-	TmOptions                       []string `json:"tmOptions,omitempty"`
+	TmOptions                       string   `json:"tmOptions,omitempty"`
 	Passphrase                      string   `json:"passphrase,omitempty"`
 	PeerCertMode                    string   `json:"peerCertMode,omitempty"`
 	ProxyCaCert                     string   `json:"proxyCaCert,omitempty"`
