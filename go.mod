@@ -1,4 +1,4 @@
-module github.com/YaleSpinup/go-bigip
+module github.com/YaleUniversity/go-bigip
 
 go 1.15
 
